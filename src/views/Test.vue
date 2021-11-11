@@ -16,11 +16,10 @@ export default {
     const state = reactive({
       name: 'FungLeo',
       sex: 'boy',
-      address: '上海'
+      address: '上海2'
     })
     const x = 0;
-    const a = 1;
-    if(x == 0) {
+    if(x === 0) {
       console.log(11111);
     }
     console.log(state)
